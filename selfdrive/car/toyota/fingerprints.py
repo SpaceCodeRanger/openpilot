@@ -1675,9 +1675,6 @@ FW_VERSIONS = {
   },
 }
   CAR.TOYOTA_RAV4_PRIME: {
-    (Ecu.type, 0xAddress-converted-to-hex, 0xSub-address-converted-to-hex-'None'-if-0): [
-      b'fwVersion',
-      b'existingFirmware',
       (Ecu.engine, 0x700, None): [
     b'\x018966342S7000\x00\x00\x00\x00',
     ],
