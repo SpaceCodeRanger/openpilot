@@ -1674,3 +1674,26 @@ FW_VERSIONS = {
     ],
   },
 }
+  CAR.TOYOTA_RAV4_PRIME: {
+    (Ecu.type, 0xAddress-converted-to-hex, 0xSub-address-converted-to-hex-'None'-if-0): [
+      b'fwVersion',
+      b'existingFirmware',
+      (Ecu.engine, 0x700, None): [
+    b'\x018966342S7000\x00\x00\x00\x00',
+    ],
+     (Ecu.abs, 0x7B0, None): [
+    b'\x01F15264228500\x00\x00\x00\x00',
+    ],
+      (Ecu.srs, 0x780, None): [
+    b'\x018917F4246200\x00\x00\x00\x00',
+    ],
+      (Ecu.eps, 0x7A1, None): [
+    b'\x018965B4209000\x00\x00\x00\x00',
+    ],
+      (Ecu.fwdCamera, 0x750, None): [
+    b'\x028646F4205200\x00\x00\x00\x008646G4202000\x00\x00\x00\x00',
+    ],
+      (Ecu.fwdRadar, 0x750, None): [
+    b'\x018821F3301400\x00\x00\x00\x00',
+    ],
+  }
