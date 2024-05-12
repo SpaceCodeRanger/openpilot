@@ -1673,7 +1673,7 @@ FW_VERSIONS = {
       b'\x028646FV201000\x00\x00\x00\x008646G2601400\x00\x00\x00\x00',
     ],
   },
-}
+},
   CAR.TOYOTA_RAV4_PRIME: {
       (Ecu.engine, 0x700, None): [
     b'\x018966342S7000\x00\x00\x00\x00',
